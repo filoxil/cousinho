@@ -331,9 +331,11 @@ label.txt_contenido_secciones {
 }
 .form_apartamento input{
 	width: 200px;
+	font-family: "Georgia", Times New Roman, Times, serif;
 }
 .form_apartamento input.date{
 	width: 95px;
+	font-family: "Georgia", Times New Roman, Times, serif;
 }
 .form_apartamento .mitad_izq{
 	width: 95px;
@@ -359,6 +361,7 @@ label.txt_contenido_secciones {
 	width: 90px;
 	margin: 0;
 	text-align: center;
+
 }
 input.bt_send_disponibilidad{
 	background-image: url('../imagenes/bg_bt_pinklines.gif');
@@ -380,15 +383,8 @@ input.bt_send_disponibilidad{
 	display: block;
 	width: 100%;
 }
-/*DATEPICKER*/
-.ui-datepicker .ui-datepicker-title {
-	margin: 0 2.3em;
-	line-height: 1.2em;
-	text-align: center;
-}
-.ui-datepicker .ui-datepicker-title {
-	line-height: 1em;
-	text-align: center;
-}
+
+
+
 
 -->
