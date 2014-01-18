@@ -380,5 +380,15 @@ input.bt_send_disponibilidad{
 	display: block;
 	width: 100%;
 }
+/*DATEPICKER*/
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.2em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title {
+	line-height: 1em;
+	text-align: center;
+}
 
 -->
