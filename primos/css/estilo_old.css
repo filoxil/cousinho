@@ -1,0 +1,320 @@
+<!--
+body {
+	background-image: url(../img/fondo.jpg);
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a.menu {color: #000000;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+a.menu:link {text-decoration: none;}
+a.menu:visited {text-decoration: none;color: #000000;}
+a.menu:hover {text-decoration: underline;color: #000000;}
+a.menu:active {text-decoration: none;color: #f1a3cd;}
+
+a.link_rosa_menu {color: #333;
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	text-align:left;
+	font-weight: bold;
+	line-height: 22px;
+}
+a.link_rosa_menu:link {text-decoration: none;}
+a.link_rosa_menu:visited {text-decoration: none;color: #111;}
+a.link_rosa_menu:hover {text-decoration: underline;color: #f1a3cd;}
+a.link_rosa_menu:active {text-decoration: none;color: #f1a3cd;}
+
+a.link_rosa {color: #333333;
+	font-family:  "Arial", Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	font-weight: normal;
+	line-height: 16px;
+}
+a.link_rosa:link {text-decoration: none;}
+a.link_rosa:visited {text-decoration: none; color: #333333;}
+a.link_rosa:hover {text-decoration: underline;color: #333333;}
+a.link_rosa:active {text-decoration: none;color: #f1a3cd;}
+
+
+#cuerpo  {width:990px;margin:0px auto auto auto; z-index:0;}
+
+#menu1_titulo {position:relative;}
+#menu2_titulo {position:relative;}
+#menu3_titulo {position:relative;}
+#menu4_titulo {position:relative;}
+#menu5_titulo {position:relative;}
+#menu6_titulo {position:relative;}
+
+.txt_entrada {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 18px;
+}
+
+.txt_contenido_secciones {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 22px;
+}
+
+.txt_contenido_cuadros {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 20px;
+}
+
+.btn_menu {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+}
+
+.txt_tlf_matilde {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 16px;
+}
+
+.txt_superplanes_coste {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 16px;
+}
+
+
+.txt_pie {
+	color: #333333;
+	font-family:  "Arial", Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:left;
+	font-weight: normal;
+	line-height: 16px;
+	
+}
+
+
+.txt_contenido_secciones_pie {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 22px;
+}
+
+.txt_contenido_secciones_pie_condiciones {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 18px;
+}
+
+.txt_formulario {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 24px;
+}
+
+.txt_asterisco_formulario {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 24px;
+}
+
+.txt_asterisco_formulario2 {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align:left;
+	line-height: 24px;
+}
+
+.txt_asterisco {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 20px;
+}
+
+.txt_titulo_seccion {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 30px;
+}
+
+.txt_titulo_seccion_apartamentos_superplanes {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 36px;
+}
+
+.txt_titulo_seccion2 {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 30px;
+}
+
+.txt_titulo_seccion_contigo {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-decoration:underline;
+	color: #333333;
+	text-align:left;
+	line-height: 40px;
+}
+
+.numeros_seccion_contigo {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 40px;
+}
+
+.precios {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 18px;
+	font-weight: bold; 
+	color: #333333;
+	text-align:left;
+}
+
+.n_peronas {
+	font-family: "Arial", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align:left;
+	line-height: 40px;
+}
+
+.txt_titulo_seccion_contigo2 {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 28px;
+}
+
+.txt_titulo_seccion_contigo2_2 {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+	line-height: 28px;
+}
+
+
+.txt_tlf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:17px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+}
+
+.desplegable_home_1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:8px;
+	font-weight: bolder;
+	color: #333333;
+	text-align:left;
+}
+
+.desplegable_home_2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height:32px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+}
+
+.txt_pago_seguro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height:14px;
+	font-weight: normal;
+	color: #333333;
+	text-align:left;
+}
+
+.txt_tlf_contigo {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	text-align:left;
+	line-height: 20px;
+}
+
+.txt_titulos_zonas_apartamentos {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	text-align:center;
+	line-height: 20px;
+}
+
+.txt_recomendaciones {
+	font-family: "Georgia", Times New Roman, Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	text-align: right;
+	line-height: 18px;
+}
+
+
+-->
